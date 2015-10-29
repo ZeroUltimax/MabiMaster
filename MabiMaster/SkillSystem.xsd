@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SkillSystem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Categories">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Category">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Skill">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="Rank">
+                            <xs:complexType>
+                              <xs:attribute name="l" type="xs:string" use="required" />
+                              <xs:attribute name="ap" type="xs:unsignedByte" use="optional" />
+                              <xs:attribute name="dex" type="xs:unsignedByte" use="optional" />
+                              <xs:attribute name="str" type="xs:unsignedByte" use="optional" />
+                              <xs:attribute name="will" type="xs:unsignedByte" use="optional" />
+                              <xs:attribute name="stam" type="xs:unsignedByte" use="optional" />
+                              <xs:attribute name="mp" type="xs:unsignedByte" use="optional" />
+                              <xs:attribute name="hp" type="xs:unsignedByte" use="optional" />
+                              <xs:attribute name="disabled" type="xs:boolean" use="optional" />
+                              <xs:attribute name="luck" type="xs:unsignedByte" use="optional" />
+                              <xs:attribute name="int" type="xs:unsignedByte" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="name" type="xs:string" use="required" />
+                        <xs:attribute name="elf" type="xs:boolean" use="optional" />
+                        <xs:attribute name="giant" type="xs:boolean" use="optional" />
+                        <xs:attribute name="human" type="xs:boolean" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="name" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

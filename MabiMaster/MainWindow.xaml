@@ -1,0 +1,41 @@
+﻿<Window x:Class="MabiMaster.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MabiMaster"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <local:SkillSummaryViewModel/>
+    </Window.DataContext>
+    <TabControl>
+        <TabItem Header="Character">
+
+        </TabItem>
+        <TabItem Header="Skill Summary">
+            <ItemsControl ItemsSource="{Binding SkillSystem.Categories}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderBrush="#FFC52020" BorderThickness="1">
+                            <DockPanel>
+                                <Label Content="{Binding Name}" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
+                                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                                    <ItemsControl ItemsSource="{Binding Skills}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <Label Content="{Binding Name}"/>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </ScrollViewer>
+                            </DockPanel>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </TabItem>
+    </TabControl>
+</Window>
