@@ -1,78 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <SkillSystem>
-  <!--
-Magic
 
-Blaze
-Bolt Mastery
-Enchant
-Fireball
-Firebolt
-Fire Mastery
-Fire Shield
-Fusion Bolt
-Hail Storm
-Healing
-Icebolt
-Ice Mastery
-Ice Shield
-Ice Spear
-Inspiration
-Lightning Bolt
-Lightning Mastery
-Lightning Rod
-Lightning Shield
-Magic Fusion
-Magic Mastery
-Magic Weapon Mastery
-Mana Shield
-Meditation
-Meteor Strike
-Natural Shield
-Party Healing
-Snap Cast
-Spellwalk
-Thunder
--->
-  <!--
-Life
-
-Artifact Investigation
-Blacksmithing
-Campfire
-Carpentry
-Catering
-Commerce Mastery
-Cooking
-Egg Gathering
-Exploration Mastery
-First Aid
-Fishing
-Handicraft
-Harvesting
-Herbalism
-Hillwen Engineering
-Hoeing
-Ingredient Hunting
-Magic Craft
-Metallurgy
-Milking
-Mining
-Mushroom Gathering
-Potion Making
-Production Mastery
-Rare Mineralogy
-Refining
-Rest
-Sheep Shearing
-Shyllien Ecology
-Tailoring
-Taming Wild Animals
-Tasting
-Transformation Mastery
-Weaving
-Wine Making
--->
   <!--
 Ninja
 
@@ -1020,6 +948,569 @@ to clean, remove all:
         <Rank l="1" ap="20" str="3" will="4"/>
       </Skill>
     </Category>
+    <Category name="Magic">
+      <Skill name="Blaze">
+        <Rank l="F" ap="4" int="2" mp="2"/>
+        <Rank l="E" ap="6" int="2" mp="2"/>
+        <Rank l="D" ap="8" int="2" mp="2"/>
+        <Rank l="C" ap="11" int="2" mp="2"/>
+        <Rank l="B" ap="14" int="2" mp="2"/>
+        <Rank l="A" ap="17" int="2" mp="2"/>
+        <Rank l="9" ap="21" int="2" mp="2"/>
+        <Rank l="8" ap="25" int="2" mp="2"/>
+        <Rank l="7" ap="29" int="2" mp="2"/>
+        <Rank l="6" ap="33" int="2" mp="2"/>
+        <Rank l="5" ap="38" str="1" int="2" mp="2"/>
+        <Rank l="4" ap="43" str="1" int="2" mp="2"/>
+        <Rank l="3" ap="48" str="1" int="2" mp="2"/>
+        <Rank l="2" ap="53" str="1" int="2" mp="2"/>
+        <Rank l="1" ap="60" str="3" int="5" mp="5"/>
+      </Skill>
+      <Skill name="Bolt Mastery">
+        <Rank l="F" ap="3" mp="1"/>
+        <Rank l="E" ap="3" mp="1"/>
+        <Rank l="D" ap="3" mp="1"/>
+        <Rank l="C" ap="6" mp="1"/>
+        <Rank l="B" ap="6" mp="1"/>
+        <Rank l="A" ap="6" mp="2"/>
+        <Rank l="9" ap="8" mp="1"/>
+        <Rank l="8" ap="8" mp="1"/>
+        <Rank l="7" ap="8" mp="1"/>
+        <Rank l="6" ap="8" mp="1"/>
+        <Rank l="5" ap="11" mp="2"/>
+        <Rank l="4" ap="12" mp="2"/>
+        <Rank l="3" ap="13" mp="2"/>
+        <Rank l="2" ap="14" mp="2"/>
+        <Rank l="1" ap="15" mp="2"/>
+      </Skill>
+      <Skill name="Enchant">
+        <Rank l="F" ap="1" int="1" dex="1"/>
+        <Rank l="E" ap="2" int="1" dex="1"/>
+        <Rank l="D" ap="3" int="1" dex="1"/>
+        <Rank l="C" ap="4" int="1" dex="1"/>
+        <Rank l="B" ap="5" int="1" dex="1"/>
+        <Rank l="A" ap="6" int="1" dex="1"/>
+        <Rank l="9" ap="7" int="1" dex="1"/>
+        <Rank l="8" ap="8" int="1" dex="1"/>
+        <Rank l="7" ap="9" int="1" dex="1"/>
+        <Rank l="6" ap="10" int="1" dex="1"/>
+        <Rank l="5" ap="12" int="1" dex="1"/>
+        <Rank l="4" ap="14" int="1" dex="1"/>
+        <Rank l="3" ap="16" int="1" dex="1"/>
+        <Rank l="2" ap="18" int="1" dex="1"/>
+        <Rank l="1" ap="20" int="1" dex="1"/>
+      </Skill>
+      <Skill name="Fireball">
+        <Rank l="F" ap="7" int="3"/>
+        <Rank l="E" ap="8" int="3"/>
+        <Rank l="D" ap="9" int="3"/>
+        <Rank l="C" ap="10" int="3"/>
+        <Rank l="B" ap="12" int="4"/>
+        <Rank l="A" ap="15" int="4"/>
+        <Rank l="9" ap="17" int="4"/>
+        <Rank l="8" ap="20" int="5"/>
+        <Rank l="7" ap="25" int="5"/>
+        <Rank l="6" ap="30" int="5"/>
+        <Rank l="5" ap="35" int="5"/>
+        <Rank l="4" ap="40" str="2" int="5"/>
+        <Rank l="3" ap="45" str="2" int="5"/>
+        <Rank l="2" ap="50" str="2" int="5"/>
+        <Rank l="1" ap="60" str="2" int="5"/>
+      </Skill>
+      <Skill name="Firebolt" elf="false">
+        <Rank l="F" ap="3" int="1"/>
+        <Rank l="E" ap="3" int="2"/>
+        <Rank l="D" ap="3" int="2"/>
+        <Rank l="C" ap="3" int="2"/>
+        <Rank l="B" ap="3" int="3"/>
+        <Rank l="A" ap="3" int="3"/>
+        <Rank l="9" ap="7" int="3"/>
+        <Rank l="8" ap="7" int="4"/>
+        <Rank l="7" ap="7" int="4"/>
+        <Rank l="6" ap="7" int="4"/>
+        <Rank l="5" ap="12" int="4"/>
+        <Rank l="4" ap="12" int="5"/>
+        <Rank l="3" ap="12" int="5"/>
+        <Rank l="2" ap="12" int="5"/>
+        <Rank l="1" ap="15" int="5"/>
+      </Skill>
+      <Skill name="Firebolt" human="false" giant="false">
+        <Rank l="F" ap="4" int="1"/>
+        <Rank l="E" ap="4" int="2"/>
+        <Rank l="D" ap="4" int="2"/>
+        <Rank l="C" ap="4" int="2"/>
+        <Rank l="B" ap="4" int="3"/>
+        <Rank l="A" ap="4" int="3"/>
+        <Rank l="9" ap="10" int="3"/>
+        <Rank l="8" ap="10" int="4"/>
+        <Rank l="7" ap="10" int="4"/>
+        <Rank l="6" ap="10" int="4"/>
+        <Rank l="5" ap="16" int="4"/>
+        <Rank l="4" ap="16" int="5"/>
+        <Rank l="3" ap="16" int="5"/>
+        <Rank l="2" ap="16" int="5"/>
+        <Rank l="1" ap="20" int="5"/>
+      </Skill>
+      <Skill name="Fire Mastery">
+        <Rank l="F" ap="3" int="1" mp="3"/>
+        <Rank l="E" ap="3" int="1"/>
+        <Rank l="D" ap="3" int="1"/>
+        <Rank l="C" ap="6" int="1"/>
+        <Rank l="B" ap="6" int="1"/>
+        <Rank l="A" ap="6" int="1"/>
+        <Rank l="9" ap="9" int="1" mp="3"/>
+        <Rank l="8" ap="9" int="1"/>
+        <Rank l="7" ap="9" int="1"/>
+        <Rank l="6" ap="9" int="1"/>
+        <Rank l="5" ap="14" int="1" mp="3"/>
+        <Rank l="4" ap="16" int="1"/>
+        <Rank l="3" ap="18" int="1"/>
+        <Rank l="2" ap="20" int="1"/>
+        <Rank l="1" ap="25" int="3" mp="5"/>
+      </Skill>
+      <Skill name="Fire Shield">
+        <Rank l="F" ap="3" mp="1"/>
+        <Rank l="E" ap="3" mp="1"/>
+        <Rank l="D" ap="6" mp="1"/>
+        <Rank l="C" ap="6" mp="1"/>
+        <Rank l="B" ap="9" mp="1"/>
+        <Rank l="A" ap="9" mp="1"/>
+        <Rank l="9" ap="12" will="1" mp="1"/>
+        <Rank l="8" ap="12" will="1" mp="1"/>
+        <Rank l="7" ap="12" will="1" mp="1"/>
+        <Rank l="6" ap="12" will="1" mp="1"/>
+        <Rank l="5" ap="15" will="1" mp="1"/>
+        <Rank l="4" ap="15" will="1" mp="1"/>
+        <Rank l="3" ap="15" will="1" mp="1"/>
+        <Rank l="2" ap="15" will="1" mp="1"/>
+        <Rank l="1" ap="20" will="1" mp="1"/>
+      </Skill>
+      <Skill name="Fusion Bolt">
+        <Rank l="F" ap="3"/>
+        <Rank l="E" ap="4"/>
+        <Rank l="D" ap="5"/>
+        <Rank l="C" ap="6" int="1"/>
+        <Rank l="B" ap="7" int="1"/>
+        <Rank l="A" ap="8" int="1"/>
+        <Rank l="9" ap="12" int="2"/>
+        <Rank l="8" ap="15" int="2"/>
+        <Rank l="7" ap="18" int="2"/>
+        <Rank l="6" ap="21" int="2"/>
+        <Rank l="5" ap="25" int="3"/>
+        <Rank l="4" ap="30" int="3"/>
+        <Rank l="3" ap="35" int="3"/>
+        <Rank l="2" ap="40" int="4"/>
+        <Rank l="1" ap="50" int="5"/>
+      </Skill>
+      <Skill name="Hail Storm">
+        <Rank l="F" ap="8" int="2"/>
+        <Rank l="E" ap="10" int="2"/>
+        <Rank l="D" ap="12" int="2"/>
+        <Rank l="C" ap="14" int="2"/>
+        <Rank l="B" ap="16" int="2"/>
+        <Rank l="A" ap="18" int="2"/>
+        <Rank l="9" ap="20" int="2" dex="2" mp="2"/>
+        <Rank l="8" ap="25" int="2" dex="2" mp="2"/>
+        <Rank l="7" ap="30" int="2" dex="2" mp="2"/>
+        <Rank l="6" ap="35" int="2" dex="2" mp="2"/>
+        <Rank l="5" ap="40" int="2" dex="2" mp="3"/>
+        <Rank l="4" ap="45" int="2" dex="2" mp="3"/>
+        <Rank l="3" ap="50" int="2" dex="2" mp="3"/>
+        <Rank l="2" ap="55" int="2" dex="2" mp="3"/>
+        <Rank l="1" ap="60" int="5" dex="3" mp="3"/>
+      </Skill>
+      <Skill name="Healing">
+        <Rank l="N"/>
+        <Rank l="F" ap="2" int="1"/>
+        <Rank l="E" ap="3" int="2"/>
+        <Rank l="D" ap="5" int="2"/>
+        <Rank l="C" ap="7" int="2"/>
+        <Rank l="B" ap="8" int="3"/>
+        <Rank l="A" ap="9" int="3"/>
+        <Rank l="9" ap="10" int="3"/>
+        <Rank l="8" ap="12" int="4"/>
+        <Rank l="7" ap="14" int="4"/>
+        <Rank l="6" ap="15" int="4"/>
+        <Rank l="5" ap="20" int="4"/>
+        <Rank l="4" ap="22" int="5"/>
+        <Rank l="3" ap="24" int="5"/>
+        <Rank l="2" ap="26" int="5"/>
+        <Rank l="1" ap="30" int="5"/>
+      </Skill>
+      <Skill name="Icebolt" elf="false">
+        <Rank l="F" ap="3" int="1"/>
+        <Rank l="E" ap="3" int="2"/>
+        <Rank l="D" ap="3" int="2"/>
+        <Rank l="C" ap="3" int="2"/>
+        <Rank l="B" ap="3" int="3"/>
+        <Rank l="A" ap="3" int="3"/>
+        <Rank l="9" ap="5" int="3"/>
+        <Rank l="8" ap="5" int="4"/>
+        <Rank l="7" ap="5" int="4"/>
+        <Rank l="6" ap="5" int="4"/>
+        <Rank l="5" ap="7" int="4"/>
+        <Rank l="4" ap="8" int="5"/>
+        <Rank l="3" ap="9" int="5"/>
+        <Rank l="2" ap="10" int="5"/>
+        <Rank l="1" ap="20" int="5"/>
+      </Skill>
+      <Skill name="Icebolt" human="false" giant="false">
+        <Rank l="F" ap="3" int="1"/>
+        <Rank l="E" ap="3" int="2"/>
+        <Rank l="D" ap="3" int="2"/>
+        <Rank l="C" ap="3" int="2"/>
+        <Rank l="B" ap="3" int="3"/>
+        <Rank l="A" ap="3" int="3"/>
+        <Rank l="9" ap="8" int="3"/>
+        <Rank l="8" ap="8" int="4"/>
+        <Rank l="7" ap="8" int="4"/>
+        <Rank l="6" ap="8" int="4"/>
+        <Rank l="5" ap="13" int="4"/>
+        <Rank l="4" ap="13" int="5"/>
+        <Rank l="3" ap="13" int="5"/>
+        <Rank l="2" ap="13" int="5"/>
+        <Rank l="1" ap="20" int="5"/>
+      </Skill>
+      <Skill name="Ice Mastery">
+        <Rank l="F" ap="3" int="1" mp="3"/>
+        <Rank l="E" ap="3" int="1"/>
+        <Rank l="D" ap="3" int="1"/>
+        <Rank l="C" ap="6" int="1"/>
+        <Rank l="B" ap="6" int="1"/>
+        <Rank l="A" ap="6" int="1"/>
+        <Rank l="9" ap="9" int="1" mp="3"/>
+        <Rank l="8" ap="9" int="1"/>
+        <Rank l="7" ap="9" int="1"/>
+        <Rank l="6" ap="9" int="1"/>
+        <Rank l="5" ap="14" int="1" mp="3"/>
+        <Rank l="4" ap="16" int="1"/>
+        <Rank l="3" ap="18" int="1"/>
+        <Rank l="2" ap="20" int="1"/>
+        <Rank l="1" ap="25" int="3" mp="5"/>
+      </Skill>
+      <Skill name="Ice Shield">
+        <Rank l="F" ap="1" mp="1"/>
+        <Rank l="E" ap="2" mp="1"/>
+        <Rank l="D" ap="3" mp="1"/>
+        <Rank l="C" ap="5" mp="1"/>
+        <Rank l="B" ap="7" mp="1"/>
+        <Rank l="A" ap="8" mp="1"/>
+        <Rank l="9" ap="10" will="1" mp="1"/>
+        <Rank l="8" ap="11" will="1" mp="1"/>
+        <Rank l="7" ap="13" will="1" mp="1"/>
+        <Rank l="6" ap="15" will="1" mp="1"/>
+        <Rank l="5" ap="17" will="1" mp="1"/>
+        <Rank l="4" ap="18" will="1" mp="1"/>
+        <Rank l="3" ap="19" will="1" mp="1"/>
+        <Rank l="2" ap="20" will="1" mp="1"/>
+        <Rank l="1" ap="24" will="1" mp="1"/>
+      </Skill>
+      <Skill name="Ice Spear">
+        <Rank l="F" ap="4" int="1"/>
+        <Rank l="E" ap="6" int="1"/>
+        <Rank l="D" ap="8" int="1"/>
+        <Rank l="C" ap="10" int="1"/>
+        <Rank l="B" ap="12" int="1"/>
+        <Rank l="A" ap="14" int="1"/>
+        <Rank l="9" ap="20" int="2"/>
+        <Rank l="8" ap="25" int="2"/>
+        <Rank l="7" ap="30" int="2"/>
+        <Rank l="6" ap="35" int="2"/>
+        <Rank l="5" ap="42" int="3" mp="5"/>
+        <Rank l="4" ap="48" int="3" mp="5"/>
+        <Rank l="3" ap="54" int="3" mp="5"/>
+        <Rank l="2" ap="60" int="3" mp="5"/>
+        <Rank l="1" ap="70" int="3" mp="5"/>
+      </Skill>
+      <Skill name="Inspiration">
+        <Rank l="F" ap="2" mp="1"/>
+        <Rank l="E" ap="4" mp="2"/>
+        <Rank l="D" ap="6" mp="2"/>
+        <Rank l="C" ap="6" mp="3"/>
+        <Rank l="B" ap="6" mp="3"/>
+        <Rank l="A" ap="6" mp="3"/>
+        <Rank l="9" ap="8" mp="4"/>
+        <Rank l="8" ap="8" mp="4"/>
+        <Rank l="7" ap="8" mp="4"/>
+        <Rank l="6" ap="10" mp="5"/>
+        <Rank l="5" ap="10" mp="5"/>
+        <Rank l="4" ap="10" mp="5"/>
+        <Rank l="3" ap="12" mp="6"/>
+        <Rank l="2" ap="14" mp="6"/>
+        <Rank l="1" ap="16" mp="7"/>
+      </Skill>
+      <Skill name="Lightning Bolt" elf="false">
+        <Rank l="F" ap="5" int="1"/>
+        <Rank l="E" ap="5" int="2"/>
+        <Rank l="D" ap="5" int="2"/>
+        <Rank l="C" ap="5" int="2"/>
+        <Rank l="B" ap="5" int="3"/>
+        <Rank l="A" ap="5" int="3"/>
+        <Rank l="9" ap="8" int="3"/>
+        <Rank l="8" ap="8" int="4"/>
+        <Rank l="7" ap="8" int="4"/>
+        <Rank l="6" ap="8" int="4"/>
+        <Rank l="5" ap="10" int="4"/>
+        <Rank l="4" ap="10" int="5"/>
+        <Rank l="3" ap="10" int="5"/>
+        <Rank l="2" ap="10" int="5"/>
+        <Rank l="1" ap="20" int="5"/>
+      </Skill>
+      <Skill name="Lightning Bolt" human="false" giant="false">
+        <Rank l="F" ap="6" int="1"/>
+        <Rank l="E" ap="6" int="2"/>
+        <Rank l="D" ap="6" int="2"/>
+        <Rank l="C" ap="6" int="2"/>
+        <Rank l="B" ap="6" int="3"/>
+        <Rank l="A" ap="6" int="3"/>
+        <Rank l="9" ap="10" int="3"/>
+        <Rank l="8" ap="10" int="4"/>
+        <Rank l="7" ap="10" int="4"/>
+        <Rank l="6" ap="10" int="4"/>
+        <Rank l="5" ap="14" int="4"/>
+        <Rank l="4" ap="14" int="5"/>
+        <Rank l="3" ap="14" int="5"/>
+        <Rank l="2" ap="14" int="5"/>
+        <Rank l="1" ap="20" int="5"/>
+      </Skill>
+      <Skill name="Lightning Mastery">
+        <Rank l="F" ap="3" int="1" mp="3"/>
+        <Rank l="E" ap="3" int="1"/>
+        <Rank l="D" ap="3" int="1"/>
+        <Rank l="C" ap="6" int="1"/>
+        <Rank l="B" ap="6" int="1"/>
+        <Rank l="A" ap="6" int="1"/>
+        <Rank l="9" ap="9" int="1" mp="3"/>
+        <Rank l="8" ap="9" int="1"/>
+        <Rank l="7" ap="9" int="1"/>
+        <Rank l="6" ap="9" int="1"/>
+        <Rank l="5" ap="14" int="1" mp="3"/>
+        <Rank l="4" ap="16" int="1"/>
+        <Rank l="3" ap="18" int="1"/>
+        <Rank l="2" ap="20" int="1"/>
+        <Rank l="1" ap="25" int="3" mp="5"/>
+      </Skill>
+      <Skill name="Lightning Rod">
+        <Rank l="F" ap="6" int="2"/>
+        <Rank l="E" ap="8" int="3"/>
+        <Rank l="D" ap="10" int="3"/>
+        <Rank l="C" ap="12" int="3"/>
+        <Rank l="B" ap="14" int="3"/>
+        <Rank l="A" ap="16" int="3"/>
+        <Rank l="9" ap="20" int="4" mp="1"/>
+        <Rank l="8" ap="24" int="4" mp="1"/>
+        <Rank l="7" ap="28" int="4" mp="1"/>
+        <Rank l="6" ap="32" int="4" mp="2"/>
+        <Rank l="5" ap="36" int="4" mp="2"/>
+        <Rank l="4" ap="40" int="4" mp="2"/>
+        <Rank l="3" ap="44" int="4" mp="2"/>
+        <Rank l="2" ap="50" int="4" mp="2"/>
+        <Rank l="1" ap="53" int="5" mp="3"/>
+      </Skill>
+      <Skill name="Lightning Shield">
+        <Rank l="F" ap="2" mp="1"/>
+        <Rank l="E" ap="2" mp="1"/>
+        <Rank l="D" ap="2" mp="1"/>
+        <Rank l="C" ap="8" mp="1"/>
+        <Rank l="B" ap="8" mp="1"/>
+        <Rank l="A" ap="8" mp="1"/>
+        <Rank l="9" ap="14" will="1" mp="1"/>
+        <Rank l="8" ap="14" will="1" mp="1"/>
+        <Rank l="7" ap="14" will="1" mp="1"/>
+        <Rank l="6" ap="14" will="1" mp="1"/>
+        <Rank l="5" ap="18" will="1" mp="1"/>
+        <Rank l="4" ap="18" will="1" mp="1"/>
+        <Rank l="3" ap="18" will="1" mp="1"/>
+        <Rank l="2" ap="18" will="1" mp="1"/>
+        <Rank l="1" ap="20" will="1" mp="1"/>
+      </Skill>
+      <Skill name="Magic Mastery" giant="false">
+        <Rank l="F" ap="1" mp="11"/>
+        <Rank l="E" ap="1" mp="11"/>
+        <Rank l="D" ap="2" mp="11"/>
+        <Rank l="C" ap="2" mp="11"/>
+        <Rank l="B" ap="3" mp="11"/>
+        <Rank l="A" ap="3" mp="11"/>
+        <Rank l="9" ap="5" int="1" mp="11"/>
+        <Rank l="8" ap="5" int="1" mp="11"/>
+        <Rank l="7" ap="7" int="1" mp="11"/>
+        <Rank l="6" ap="7" int="1" mp="11"/>
+        <Rank l="5" ap="10" int="2" mp="11"/>
+        <Rank l="4" ap="10" int="2" mp="11"/>
+        <Rank l="3" ap="10" int="2" mp="11"/>
+        <Rank l="2" ap="10" int="2" mp="11"/>
+        <Rank l="1" ap="15" int="5" mp="11"/>
+      </Skill>
+      <Skill name="Magic Mastery" elf="false" human="false">
+        <Rank l="F" ap="1" mp="6"/>
+        <Rank l="E" ap="1" mp="6"/>
+        <Rank l="D" ap="2" mp="6"/>
+        <Rank l="C" ap="2" mp="8"/>
+        <Rank l="B" ap="3" mp="8"/>
+        <Rank l="A" ap="3" mp="8"/>
+        <Rank l="9" ap="5" mp="11"/>
+        <Rank l="8" ap="5" mp="11"/>
+        <Rank l="7" ap="7" mp="11"/>
+        <Rank l="6" ap="7" mp="11"/>
+        <Rank l="5" ap="10" int="1" mp="11"/>
+        <Rank l="4" ap="10" int="1" mp="11"/>
+        <Rank l="3" ap="10" int="1" mp="11"/>
+        <Rank l="2" ap="10" int="1" mp="11"/>
+        <Rank l="1" ap="15" int="5" mp="11"/>
+      </Skill>
+      <Skill name="Magic Weapon Mastery">
+        <Rank l="E" ap="1"/>
+        <Rank l="D" ap="2"/>
+        <Rank l="C" ap="3"/>
+        <Rank l="B" ap="4"/>
+        <Rank l="A" ap="5"/>
+        <Rank l="9" ap="7" int="1"/>
+        <Rank l="8" ap="9" int="1"/>
+        <Rank l="7" ap="11" int="1"/>
+        <Rank l="6" ap="13" int="1"/>
+        <Rank l="5" ap="15" int="1"/>
+        <Rank l="4" ap="17" int="1"/>
+        <Rank l="3" ap="19" int="1" will="1"/>
+        <Rank l="2" ap="21" int="1" will="1"/>
+        <Rank l="1" ap="25" int="1" will="1"/>
+      </Skill>
+      <Skill name="Mana Shield">
+        <Rank l="F" ap="4" mp="2"/>
+        <Rank l="E" ap="6" mp="2"/>
+        <Rank l="D" ap="8" mp="2"/>
+        <Rank l="C" ap="10" mp="2"/>
+        <Rank l="B" ap="12" mp="2"/>
+        <Rank l="A" ap="14" mp="2"/>
+        <Rank l="9" ap="17" int="1" mp="3"/>
+        <Rank l="8" ap="20" int="1" mp="3"/>
+        <Rank l="7" ap="23" int="1" mp="3"/>
+        <Rank l="6" ap="26" int="1" mp="3"/>
+        <Rank l="5" ap="30" int="1" mp="4" disabled="true"/>
+        <Rank l="4" ap="34" int="1" mp="4" disabled="true"/>
+        <Rank l="3" ap="38" int="1" mp="4" disabled="true"/>
+        <Rank l="2" ap="42" int="1" mp="4" disabled="true"/>
+        <Rank l="1" ap="50" int="3" mp="10" disabled="true"/>
+      </Skill>
+      <Skill name="Meditation">
+        <Rank l="F" ap="2" mp="5"/>
+        <Rank l="E" ap="3" mp="5"/>
+        <Rank l="D" ap="4" mp="5"/>
+        <Rank l="C" ap="5" mp="5"/>
+        <Rank l="B" ap="5" mp="7"/>
+        <Rank l="A" ap="5" mp="7"/>
+        <Rank l="9" ap="5" mp="7"/>
+        <Rank l="8" ap="5" mp="7"/>
+        <Rank l="7" ap="6" disabled="true"/>
+        <Rank l="6" ap="6" disabled="true"/>
+        <Rank l="5" ap="7" disabled="true"/>
+        <Rank l="4" ap="8" disabled="true"/>
+        <Rank l="3" ap="10" disabled="true"/>
+        <Rank l="2" ap="12" disabled="true"/>
+        <Rank l="1" ap="15" disabled="true"/>
+      </Skill>
+      <Skill name="Meteor Strike">
+        <Rank l="F" ap="8" int="1"/>
+        <Rank l="E" ap="10" int="1"/>
+        <Rank l="D" ap="12" int="1"/>
+        <Rank l="C" ap="14" int="1"/>
+        <Rank l="B" ap="16" int="1"/>
+        <Rank l="A" ap="18" int="2"/>
+        <Rank l="9" ap="25" int="2"/>
+        <Rank l="8" ap="30" int="2"/>
+        <Rank l="7" ap="36" int="3"/>
+        <Rank l="6" ap="42" int="3"/>
+        <Rank l="5" ap="48" int="3"/>
+        <Rank l="4" ap="54" int="5"/>
+        <Rank l="3" ap="60" int="5"/>
+        <Rank l="2" ap="68" int="8"/>
+        <Rank l="1" ap="80" int="12"/>
+      </Skill>
+      <Skill name="Natural Shield">
+        <Rank l="F" ap="1" mp="1"/>
+        <Rank l="E" ap="3" mp="1"/>
+        <Rank l="D" ap="5" mp="1"/>
+        <Rank l="C" ap="7" mp="1"/>
+        <Rank l="B" ap="9" mp="1"/>
+        <Rank l="A" ap="11" mp="1"/>
+        <Rank l="9" ap="12" will="1" mp="1"/>
+        <Rank l="8" ap="13" will="1" mp="1"/>
+        <Rank l="7" ap="14" will="1" mp="1"/>
+        <Rank l="6" ap="15" will="1" mp="1"/>
+        <Rank l="5" ap="17" will="1" mp="1"/>
+        <Rank l="4" ap="18" will="1" mp="1"/>
+        <Rank l="3" ap="19" will="1" mp="1"/>
+        <Rank l="2" ap="20" will="1" mp="1"/>
+        <Rank l="1" ap="25" will="1" mp="1"/>
+      </Skill>
+      <Skill name="Party Healing">
+        <Rank l="F" ap="3" int="1"/>
+        <Rank l="E" ap="3" int="1"/>
+        <Rank l="D" ap="3" int="1"/>
+        <Rank l="C" ap="5" int="2"/>
+        <Rank l="B" ap="5" int="2"/>
+        <Rank l="A" ap="5" int="2"/>
+        <Rank l="9" ap="10" int="3"/>
+        <Rank l="8" ap="10" int="3"/>
+        <Rank l="7" ap="10" int="3"/>
+        <Rank l="6" ap="10" int="3"/>
+        <Rank l="5" ap="15" int="4"/>
+        <Rank l="4" ap="15" int="4"/>
+        <Rank l="3" ap="15" int="4"/>
+        <Rank l="2" ap="15" int="4"/>
+        <Rank l="1" ap="30" int="5"/>
+      </Skill>
+      <Skill name="Snap Cast">
+        <Rank l="F" ap="5" int="1"/>
+        <Rank l="E" ap="8" int="1"/>
+        <Rank l="D" ap="8" int="1"/>
+        <Rank l="C" ap="10" int="1"/>
+        <Rank l="B" ap="10" int="1"/>
+        <Rank l="A" ap="12" int="1"/>
+        <Rank l="9" ap="15" int="1"/>
+        <Rank l="8" ap="15" int="1"/>
+        <Rank l="7" ap="17" int="1"/>
+        <Rank l="6" ap="20" int="1"/>
+        <Rank l="5" ap="20" int="1"/>
+        <Rank l="4" ap="25" int="1"/>
+        <Rank l="3" ap="30" int="1"/>
+        <Rank l="2" ap="35" int="1"/>
+        <Rank l="1" ap="40" int="3"/>
+      </Skill>
+      <Skill name="Spellwalk">
+        <Rank l="F" ap="3" stam="1"/>
+        <Rank l="E" ap="4" stam="1"/>
+        <Rank l="D" ap="4" stam="1"/>
+        <Rank l="C" ap="5" int="1"/>
+        <Rank l="B" ap="5" stam="1"/>
+        <Rank l="A" ap="5" stam="1"/>
+        <Rank l="9" ap="6" int="1"/>
+        <Rank l="8" ap="6" stam="1"/>
+        <Rank l="7" ap="8" stam="1"/>
+        <Rank l="6" ap="8" int="1"/>
+        <Rank l="5" ap="15" int="1" stam="1"/>
+        <Rank l="4" ap="17" int="1" stam="1"/>
+        <Rank l="3" ap="19" int="1" stam="1"/>
+        <Rank l="2" ap="22" int="1" stam="1"/>
+        <Rank l="1" ap="28" int="3" stam="3"/>
+      </Skill>
+      <Skill name="Thunder">
+        <Rank l="F" ap="2" will="1" mp="5"/>
+        <Rank l="E" ap="4" will="1" mp="5"/>
+        <Rank l="D" ap="6" will="1" mp="5"/>
+        <Rank l="C" ap="9" will="1" mp="6"/>
+        <Rank l="B" ap="12" will="1" mp="6"/>
+        <Rank l="A" ap="16" will="1" mp="6"/>
+        <Rank l="9" ap="20" will="2" mp="7"/>
+        <Rank l="8" ap="25" will="2" mp="7"/>
+        <Rank l="7" ap="30" will="2" mp="8"/>
+        <Rank l="6" ap="35" will="2" mp="10"/>
+        <Rank l="5" ap="40" will="3" mp="5"/>
+        <Rank l="4" ap="45" will="3" mp="5"/>
+        <Rank l="3" ap="50" will="3" mp="5"/>
+        <Rank l="2" ap="55" will="3" mp="5"/>
+        <Rank l="1" ap="60" will="3" mp="5"/>
+      </Skill>
+    </Category>
     <Category name="Dual Gun">
       <Skill name="Bullet Slide">
         <Rank l="F" ap="2" hp="1" stam="1"/>
@@ -1156,6 +1647,608 @@ to clean, remove all:
         <Rank l="3" ap="13" int="1" mp="1" stam="1"/>
         <Rank l="2" ap="17" int="1" hp="1" mp="1" stam="1"/>
         <Rank l="1" ap="21" int="2" hp="3" mp="1" stam="1"/>
+      </Skill>
+    </Category>
+    <Category name="Life">
+      <Skill name="Artifact Investigation">
+        <Rank l="N" int="1" luck="1"/>
+        <Rank l="F" ap="3" int="1" luck="1"/>
+        <Rank l="E" ap="3" int="1" luck="1"/>
+        <Rank l="D" ap="5" int="1" luck="1"/>
+        <Rank l="C" ap="5" int="1" luck="1"/>
+        <Rank l="B" ap="7" int="1" luck="1"/>
+        <Rank l="A" ap="7" int="1" luck="1"/>
+        <Rank l="9" ap="9" int="1" luck="1"/>
+        <Rank l="8" ap="9" int="1" luck="1"/>
+        <Rank l="7" ap="9" int="1" luck="1"/>
+        <Rank l="6" ap="10" int="1" luck="2"/>
+        <Rank l="5" ap="12" int="1" luck="2"/>
+        <Rank l="4" ap="12" int="1" luck="2"/>
+        <Rank l="3" ap="15" int="1" luck="2"/>
+        <Rank l="2" ap="15" int="1" luck="2"/>
+        <Rank l="1" ap="20" int="1" luck="5"/>
+      </Skill>
+      <Skill name="Blacksmithing">
+        <Rank l="F" ap="2" int="1" dex="1"/>
+        <Rank l="E" ap="2" int="1" dex="1"/>
+        <Rank l="D" ap="4" int="1" dex="1"/>
+        <Rank l="C" ap="2" int="1" dex="1"/>
+        <Rank l="B" ap="2" int="1" dex="1"/>
+        <Rank l="A" ap="6" int="1" dex="1" stam="1"/>
+        <Rank l="9" ap="3" int="1" dex="1"/>
+        <Rank l="8" ap="3" int="1" dex="1"/>
+        <Rank l="7" ap="3" int="1" dex="1"/>
+        <Rank l="6" ap="6" int="2" dex="2" stam="2"/>
+        <Rank l="5" ap="4" int="2" dex="2"/>
+        <Rank l="4" ap="4" int="2" dex="2"/>
+        <Rank l="3" ap="5" int="2" dex="2"/>
+        <Rank l="2" ap="6" int="2" dex="2"/>
+        <Rank l="1" ap="10" int="2" dex="2"/>
+      </Skill>
+      <Skill name="Campfire">
+        <Rank l="F" stam="1"/>
+        <Rank l="E" ap="1" stam="1"/>
+        <Rank l="D" ap="1" stam="1"/>
+        <Rank l="C" ap="1" stam="1"/>
+        <Rank l="B" ap="1" stam="1"/>
+        <Rank l="A" ap="1" stam="1"/>
+        <Rank l="9" ap="4" stam="2"/>
+        <Rank l="8" ap="2" stam="2"/>
+        <Rank l="7" ap="2" stam="2" disabled="true"/>
+        <Rank l="6" ap="2" stam="2" disabled="true"/>
+        <Rank l="5" ap="3" stam="3" disabled="true"/>
+        <Rank l="4" ap="4" stam="3" disabled="true"/>
+        <Rank l="3" ap="5" stam="3" disabled="true"/>
+        <Rank l="2" ap="6" stam="3" disabled="true"/>
+        <Rank l="1" ap="10" stam="3" disabled="true"/>
+      </Skill>
+      <Skill name="Carpentry">
+        <Rank l="F" ap="5" str="2"/>
+        <Rank l="E" ap="5" str="2"/>
+        <Rank l="D" ap="5" str="2"/>
+        <Rank l="C" ap="7" str="2"/>
+        <Rank l="B" ap="7" str="2"/>
+        <Rank l="A" ap="7" str="2"/>
+        <Rank l="9" ap="10" str="3"/>
+        <Rank l="8" ap="10" str="2"/>
+        <Rank l="7" ap="10" str="2"/>
+        <Rank l="6" ap="10" str="2"/>
+        <Rank l="5" ap="11" str="5"/>
+        <Rank l="4" ap="12" str="3"/>
+        <Rank l="3" ap="13" str="3"/>
+        <Rank l="2" ap="14" str="3"/>
+        <Rank l="1" ap="20" str="7"/>
+      </Skill>
+      <Skill name="Catering">
+        <Rank l="F" stam="5"/>
+        <Rank l="E" ap="1" stam="5"/>
+        <Rank l="D" ap="2" stam="5"/>
+        <Rank l="C" ap="3" stam="5"/>
+        <Rank l="B" ap="4" stam="5"/>
+        <Rank l="A" ap="5" stam="5"/>
+        <Rank l="9" ap="8" stam="5"/>
+        <Rank l="8" ap="10" stam="5"/>
+        <Rank l="7" ap="11" stam="5"/>
+        <Rank l="6" ap="12" stam="5"/>
+        <Rank l="5" ap="15" stam="8"/>
+        <Rank l="4" ap="17" stam="8"/>
+        <Rank l="3" ap="19" stam="8"/>
+        <Rank l="2" ap="20" stam="8"/>
+        <Rank l="1" ap="30" stam="10"/>
+      </Skill>
+      <Skill name="Commerce Mastery">
+        <Rank l="F" ap="2" luck="1"/>
+        <Rank l="E" ap="3" luck="1"/>
+        <Rank l="D" ap="4" luck="1"/>
+        <Rank l="C" ap="5" luck="1"/>
+        <Rank l="B" ap="6" luck="1"/>
+        <Rank l="A" ap="7" luck="1"/>
+        <Rank l="9" ap="10" luck="2"/>
+        <Rank l="8" ap="13" luck="2"/>
+        <Rank l="7" ap="16" luck="2"/>
+        <Rank l="6" ap="20" luck="2"/>
+        <Rank l="5" ap="30" luck="3"/>
+        <Rank l="4" ap="40" luck="3"/>
+        <Rank l="3" ap="50" luck="3"/>
+        <Rank l="2" ap="60" luck="3"/>
+        <Rank l="1" ap="70" luck="4"/>
+      </Skill>
+      <Skill name="Cooking">
+        <Rank l="F" ap="3" int="1"/>
+        <Rank l="E" ap="2" int="1"/>
+        <Rank l="D" ap="5" dex="1"/>
+        <Rank l="C" ap="2" dex="1"/>
+        <Rank l="B" ap="5" int="1" dex="1"/>
+        <Rank l="A" ap="3" dex="1"/>
+        <Rank l="9" ap="5" int="1" dex="1"/>
+        <Rank l="8" ap="10" int="1" dex="1"/>
+        <Rank l="7" ap="15" int="1" dex="1"/>
+        <Rank l="6" ap="20" int="2" dex="2"/>
+        <Rank l="5" ap="25" int="2" dex="2"/>
+        <Rank l="4" ap="30" int="2" dex="2" disabled="true"/>
+        <Rank l="3" ap="35" int="2" dex="2" disabled="true"/>
+        <Rank l="2" ap="40" int="2" dex="2" disabled="true"/>
+        <Rank l="1" ap="45" int="2" dex="2" disabled="true"/>
+      </Skill>
+      <Skill name="Egg Gathering">
+        <Rank l="F" ap="1"/>
+        <Rank l="E" ap="1"/>
+        <Rank l="D" ap="1"/>
+        <Rank l="C" ap="2"/>
+        <Rank l="B" ap="2"/>
+        <Rank l="A" ap="2"/>
+        <Rank l="9" ap="3" dex="1"/>
+        <Rank l="8" ap="3" dex="1"/>
+        <Rank l="7" ap="3" dex="1"/>
+        <Rank l="6" ap="3" dex="1"/>
+        <Rank l="5" ap="4" dex="2"/>
+        <Rank l="4" ap="4" dex="2"/>
+        <Rank l="3" ap="4" dex="2"/>
+        <Rank l="2" ap="5" dex="2"/>
+        <Rank l="1" ap="7" dex="3"/>
+      </Skill>
+      <Skill name="Exploration Mastery">
+        <Rank l="F" ap="1" hp="2" mp="1" stam="3"/>
+        <Rank l="E" ap="2" hp="2" mp="1" stam="3"/>
+        <Rank l="D" ap="2" hp="2" mp="1" stam="3"/>
+        <Rank l="C" ap="3" hp="2" mp="1" stam="3"/>
+        <Rank l="B" ap="3" hp="2" mp="1" stam="3"/>
+        <Rank l="A" ap="3" hp="2" mp="1" stam="3"/>
+        <Rank l="9" ap="6" hp="3" mp="1" stam="4"/>
+        <Rank l="8" ap="6" hp="3" mp="1" stam="4"/>
+        <Rank l="7" ap="6" hp="3" mp="1" stam="4"/>
+        <Rank l="6" ap="9" luck="1" hp="3" mp="1" stam="4"/>
+        <Rank l="5" ap="10" luck="2" hp="3" mp="1" stam="4"/>
+        <Rank l="4" ap="12" luck="2" hp="3" mp="1" stam="4"/>
+        <Rank l="3" ap="13" luck="3" hp="5" mp="1" stam="6"/>
+        <Rank l="2" ap="15" luck="3" hp="5" mp="1" stam="6"/>
+        <Rank l="1" ap="20" luck="5" hp="7" mp="1" stam="8"/>
+      </Skill>
+      <Skill name="First Aid">
+        <Rank l="F" ap="1" dex="1" hp="3"/>
+        <Rank l="E" ap="2" dex="1" hp="3"/>
+        <Rank l="D" ap="3" dex="1" hp="3"/>
+        <Rank l="C" ap="4" dex="2" hp="4"/>
+        <Rank l="B" ap="5" dex="2" hp="4"/>
+        <Rank l="A" ap="7" dex="2" hp="4"/>
+        <Rank l="9" ap="10" dex="2" hp="4"/>
+        <Rank l="8" ap="11" dex="3" hp="5"/>
+        <Rank l="7" ap="12" dex="3" hp="5"/>
+        <Rank l="6" ap="13" dex="3" hp="5"/>
+        <Rank l="5" ap="16"/>
+        <Rank l="4" ap="17"/>
+        <Rank l="3" ap="18"/>
+        <Rank l="2" ap="20"/>
+        <Rank l="1" ap="25"/>
+      </Skill>
+      <Skill name="Fishing">
+        <Rank l="F" ap="1" will="1"/>
+        <Rank l="E" ap="1" will="1"/>
+        <Rank l="D" ap="2" dex="1" will="1"/>
+        <Rank l="C" ap="1" str="1" will="1"/>
+        <Rank l="B" ap="2" will="1" stam="3"/>
+        <Rank l="A" ap="2" dex="1" will="1"/>
+        <Rank l="9" ap="3" str="1" will="1"/>
+        <Rank l="8" ap="5" will="1" stam="3"/>
+        <Rank l="7" ap="5" dex="1" will="1"/>
+        <Rank l="6" ap="8" str="1" will="1"/>
+        <Rank l="5" ap="10" will="1" stam="3"/>
+        <Rank l="4" ap="15" dex="1" will="1"/>
+        <Rank l="3" ap="20" str="1" will="1"/>
+        <Rank l="2" ap="25" will="1" stam="3"/>
+        <Rank l="1" ap="30" str="1" dex="1" will="1" stam="3"/>
+      </Skill>
+      <Skill name="Handicraft">
+        <Rank l="F" dex="1"/>
+        <Rank l="E" ap="1" dex="1"/>
+        <Rank l="D" ap="1" dex="1"/>
+        <Rank l="C" ap="1" dex="1"/>
+        <Rank l="B" ap="1" dex="1"/>
+        <Rank l="A" ap="1" dex="1"/>
+        <Rank l="9" ap="5" dex="2"/>
+        <Rank l="8" ap="2" dex="2"/>
+        <Rank l="7" ap="2" dex="2"/>
+        <Rank l="6" ap="2" dex="2"/>
+        <Rank l="5" ap="5" dex="3"/>
+        <Rank l="4" ap="3" dex="3"/>
+        <Rank l="3" ap="3" dex="3"/>
+        <Rank l="2" ap="3" dex="3"/>
+        <Rank l="1" ap="10" dex="3"/>
+      </Skill>
+      <Skill name="Harvesting">
+        <Rank l="F" ap="1" will="1"/>
+        <Rank l="E" ap="1" will="1"/>
+        <Rank l="D" ap="1" will="1"/>
+        <Rank l="C" ap="2" will="1"/>
+        <Rank l="B" ap="2" will="1"/>
+        <Rank l="A" ap="2" will="1"/>
+        <Rank l="9" ap="5" will="1"/>
+        <Rank l="8" ap="4" will="1"/>
+        <Rank l="7" ap="4" will="1"/>
+        <Rank l="6" ap="4" will="1"/>
+        <Rank l="5" ap="7" will="1"/>
+        <Rank l="4" ap="5" will="1"/>
+        <Rank l="3" ap="5" will="1"/>
+        <Rank l="2" ap="5" will="1"/>
+        <Rank l="1" ap="10" stam="5"/>
+      </Skill>
+      <Skill name="Herbalism">
+        <Rank l="F" ap="5" int="1"/>
+        <Rank l="E" ap="5" int="1"/>
+        <Rank l="D" ap="5" int="1"/>
+        <Rank l="C" ap="6" int="1"/>
+        <Rank l="B" ap="6" int="1"/>
+        <Rank l="A" ap="6" int="1"/>
+        <Rank l="9" ap="7" int="1" dex="1"/>
+        <Rank l="8" ap="7" int="1" dex="1"/>
+        <Rank l="7" ap="7" int="1" dex="1"/>
+        <Rank l="6" ap="8" int="2"/>
+        <Rank l="5" ap="8" int="2"/>
+        <Rank l="4" ap="8" int="2" dex="2"/>
+        <Rank l="3" ap="9" int="2" dex="2"/>
+        <Rank l="2" ap="9" int="2" dex="2"/>
+        <Rank l="1" ap="10" int="2" dex="2"/>
+      </Skill>
+      <Skill name="Hillwen Engineering">
+        <Rank l="N" str="1"/>
+        <Rank l="F" ap="2" int="1"/>
+        <Rank l="E" ap="2" str="1"/>
+        <Rank l="D" ap="3" int="1"/>
+        <Rank l="C" ap="3" str="1" stam="1"/>
+        <Rank l="B" ap="3" int="1" stam="1"/>
+        <Rank l="A" ap="3" str="1" stam="1"/>
+        <Rank l="9" ap="4" int="1" stam="1"/>
+        <Rank l="8" ap="4" str="1" stam="1"/>
+        <Rank l="7" ap="5" int="1" stam="1"/>
+        <Rank l="6" ap="6" str="1" stam="1"/>
+        <Rank l="5" ap="7" int="2" stam="1"/>
+        <Rank l="4" ap="7" str="2" stam="1"/>
+        <Rank l="3" ap="8" int="2" stam="1"/>
+        <Rank l="2" ap="8" str="2" int="1" stam="2"/>
+        <Rank l="1" ap="10" str="2" int="2" stam="3"/>
+      </Skill>
+      <Skill name="Hoeing">
+        <Rank l="F" ap="1" will="1"/>
+        <Rank l="E" ap="1" will="1"/>
+        <Rank l="D" ap="1" will="1"/>
+        <Rank l="C" ap="2" will="1"/>
+        <Rank l="B" ap="2" will="1"/>
+        <Rank l="A" ap="2" will="1"/>
+        <Rank l="9" ap="5" will="1"/>
+        <Rank l="8" ap="4" will="1"/>
+        <Rank l="7" ap="4" will="1"/>
+        <Rank l="6" ap="4" will="1"/>
+        <Rank l="5" ap="7" will="2"/>
+        <Rank l="4" ap="5" will="2"/>
+        <Rank l="3" ap="5" will="2"/>
+        <Rank l="2" ap="5" will="2"/>
+        <Rank l="1" ap="10" will="3"/>
+      </Skill>
+      <Skill name="Ingredient Hunting">
+        <Rank l="F" ap="1" stam="5"/>
+        <Rank l="E" ap="2" stam="5"/>
+        <Rank l="D" ap="3" stam="5"/>
+        <Rank l="C" ap="4" stam="5"/>
+        <Rank l="B" ap="5" stam="5"/>
+        <Rank l="A" ap="5" stam="5"/>
+        <Rank l="9" ap="6" dex="1" stam="5"/>
+        <Rank l="8" ap="6" dex="1" stam="5"/>
+        <Rank l="7" ap="6" dex="1" stam="5"/>
+        <Rank l="6" ap="6" dex="1" stam="5"/>
+        <Rank l="5" ap="7" dex="2" stam="8"/>
+        <Rank l="4" ap="7" dex="2" stam="8"/>
+        <Rank l="3" ap="7" dex="2" stam="8"/>
+        <Rank l="2" ap="7" dex="2" stam="8"/>
+        <Rank l="1" ap="15" dex="5" stam="10"/>
+      </Skill>
+      <Skill name="Magic Craft">
+        <Rank l="N" str="1"/>
+        <Rank l="F" ap="2" int="1"/>
+        <Rank l="E" ap="2" str="1"/>
+        <Rank l="D" ap="3" int="1"/>
+        <Rank l="C" ap="3" str="1" stam="1"/>
+        <Rank l="B" ap="3" int="1" stam="1"/>
+        <Rank l="A" ap="3" str="1" stam="1"/>
+        <Rank l="9" ap="4" int="1" stam="1"/>
+        <Rank l="8" ap="4" str="1" stam="1"/>
+        <Rank l="7" ap="5" int="1" stam="1"/>
+        <Rank l="6" ap="6" str="1" stam="1"/>
+        <Rank l="5" ap="7" int="2" stam="1"/>
+        <Rank l="4" ap="8" str="2" stam="1"/>
+        <Rank l="3" ap="8" int="2" stam="1"/>
+        <Rank l="2" ap="9" str="2" int="1" stam="2"/>
+        <Rank l="1" ap="11" str="2" int="2" stam="3"/>
+      </Skill>
+      <Skill name="Metallurgy">
+        <Rank l="F" ap="3" stam="1"/>
+        <Rank l="E" ap="3" stam="1"/>
+        <Rank l="D" ap="4" stam="1"/>
+        <Rank l="C" ap="4" stam="1"/>
+        <Rank l="B" ap="5" stam="1"/>
+        <Rank l="A" ap="5" stam="1"/>
+        <Rank l="9" ap="7" dex="1" stam="1"/>
+        <Rank l="8" ap="7" dex="1" stam="1"/>
+        <Rank l="7" ap="7" dex="1" stam="1"/>
+        <Rank l="6" ap="7" dex="1" stam="1"/>
+        <Rank l="5" ap="9" dex="1" stam="2"/>
+        <Rank l="4" ap="9" dex="1" stam="2"/>
+        <Rank l="3" ap="9" dex="1" stam="2"/>
+        <Rank l="2" ap="9" dex="1" stam="2"/>
+        <Rank l="1" ap="12" dex="3" stam="3"/>
+      </Skill>
+      <Skill name="Milking">
+        <Rank l="F" ap="1" stam="1"/>
+        <Rank l="E" ap="1" stam="1"/>
+        <Rank l="D" ap="1" stam="1"/>
+        <Rank l="C" ap="2" stam="1"/>
+        <Rank l="B" ap="2" stam="1"/>
+        <Rank l="A" ap="2" stam="1"/>
+        <Rank l="9" ap="3" stam="1"/>
+        <Rank l="8" ap="3" stam="1"/>
+        <Rank l="7" ap="3" stam="1"/>
+        <Rank l="6" ap="3" stam="1"/>
+        <Rank l="5" ap="4" stam="1"/>
+        <Rank l="4" ap="4" stam="1"/>
+        <Rank l="3" ap="4" stam="1"/>
+        <Rank l="2" ap="5" stam="1"/>
+        <Rank l="1" ap="7" stam="3"/>
+      </Skill>
+      <Skill name="Mining">
+        <Rank l="F" ap="2" str="1"/>
+        <Rank l="E" ap="2" str="1"/>
+        <Rank l="D" ap="3" str="1"/>
+        <Rank l="C" ap="3" str="1"/>
+        <Rank l="B" ap="4" str="1"/>
+        <Rank l="A" ap="4" str="1"/>
+        <Rank l="9" ap="5" str="1"/>
+        <Rank l="8" ap="5" str="1"/>
+        <Rank l="7" ap="6" str="1"/>
+        <Rank l="6" ap="6" str="1"/>
+        <Rank l="5" ap="8" str="2"/>
+        <Rank l="4" ap="8" str="2"/>
+        <Rank l="3" ap="9" str="3"/>
+        <Rank l="2" ap="9" str="3"/>
+        <Rank l="1" ap="14" str="5"/>
+      </Skill>
+      <Skill name="Mushroom Gathering">
+        <Rank l="F" ap="1"/>
+        <Rank l="E" ap="1"/>
+        <Rank l="D" ap="1"/>
+        <Rank l="C" ap="2"/>
+        <Rank l="B" ap="2"/>
+        <Rank l="A" ap="2"/>
+        <Rank l="9" ap="3" int="1"/>
+        <Rank l="8" ap="3" int="1"/>
+        <Rank l="7" ap="3" int="1"/>
+        <Rank l="6" ap="3" int="1"/>
+        <Rank l="5" ap="4" int="2"/>
+        <Rank l="4" ap="4" int="2"/>
+        <Rank l="3" ap="4" int="2"/>
+        <Rank l="2" ap="5" int="2"/>
+        <Rank l="1" ap="7" int="4"/>
+      </Skill>
+      <Skill name="Potion Making">
+        <Rank l="F" ap="1" int="2"/>
+        <Rank l="E" ap="1" int="2"/>
+        <Rank l="D" ap="1" int="2"/>
+        <Rank l="C" ap="1" int="2"/>
+        <Rank l="B" ap="1" int="2"/>
+        <Rank l="A" ap="1" int="2"/>
+        <Rank l="9" ap="2" int="3"/>
+        <Rank l="8" ap="2" int="3"/>
+        <Rank l="7" ap="2" int="3"/>
+        <Rank l="6" ap="2" int="3"/>
+        <Rank l="5" ap="3" int="3"/>
+        <Rank l="4" ap="3" int="2" dex="2"/>
+        <Rank l="3" ap="3" int="2" dex="2"/>
+        <Rank l="2" ap="3" int="2" dex="2"/>
+        <Rank l="1" ap="3" int="2" dex="2"/>
+      </Skill>
+      <Skill name="Production Mastery">
+        <Rank l="F" ap="1" stam="10"/>
+        <Rank l="E" ap="1" stam="10"/>
+        <Rank l="D" ap="1" stam="10"/>
+        <Rank l="C" ap="2" stam="10"/>
+        <Rank l="B" ap="2" stam="10"/>
+        <Rank l="A" ap="2" stam="10"/>
+        <Rank l="9" ap="5" dex="1" stam="10"/>
+        <Rank l="8" ap="5" dex="1" stam="10"/>
+        <Rank l="7" ap="5" dex="1" stam="10"/>
+        <Rank l="6" ap="5" dex="1" stam="10"/>
+        <Rank l="5" ap="7" dex="2" stam="10"/>
+        <Rank l="4" ap="7" dex="2" stam="10"/>
+        <Rank l="3" ap="7" dex="2" stam="10"/>
+        <Rank l="2" ap="7" dex="2" stam="10"/>
+        <Rank l="1" ap="10" dex="5" stam="10"/>
+      </Skill>
+      <Skill name="Rare Mineralogy">
+        <Rank l="F" ap="2" str="1"/>
+        <Rank l="E" ap="2" str="1"/>
+        <Rank l="D" ap="3" str="1"/>
+        <Rank l="C" ap="3" str="1"/>
+        <Rank l="B" ap="3" str="1"/>
+        <Rank l="A" ap="4" str="1"/>
+        <Rank l="9" ap="4" str="1" int="1"/>
+        <Rank l="8" ap="5" str="1" int="1"/>
+        <Rank l="7" ap="6" str="1" int="1"/>
+        <Rank l="6" ap="7" str="1" int="1"/>
+        <Rank l="5" ap="8" str="1" int="1"/>
+        <Rank l="4" ap="9" str="1" int="1"/>
+        <Rank l="3" ap="10" str="1" int="1"/>
+        <Rank l="2" ap="13" str="2" int="1"/>
+        <Rank l="1" ap="16" str="3" int="2"/>
+      </Skill>
+      <Skill name="Refining">
+        <Rank l="F" ap="1" dex="1"/>
+        <Rank l="E" ap="2" dex="1"/>
+        <Rank l="D" ap="2" dex="1"/>
+        <Rank l="C" ap="2" dex="1"/>
+        <Rank l="B" ap="2" dex="1"/>
+        <Rank l="A" ap="2" dex="1"/>
+        <Rank l="9" ap="5" dex="2"/>
+        <Rank l="8" ap="3" dex="2"/>
+        <Rank l="7" ap="3" dex="2"/>
+        <Rank l="6" ap="3" dex="2"/>
+        <Rank l="5" ap="5" dex="3"/>
+        <Rank l="4" ap="3" dex="3"/>
+        <Rank l="3" ap="3" dex="3"/>
+        <Rank l="2" ap="7" dex="3"/>
+        <Rank l="1" ap="10" dex="10"/>
+      </Skill>
+      <Skill name="Rest" elf="" human="" giant="">
+        <Rank l="N" ap="" str="" int="" dex="" will="" luck="" hp="" mp="" stam=""/>
+        <Rank l="F" ap="" str="" int="" dex="" will="" luck="" hp="5" mp="" stam=""/>
+        <Rank l="E" ap="5" str="1" int="" dex="" will="" luck="" hp="10" mp="" stam=""/>
+        <Rank l="D" ap="10" str="" int="" dex="" will="" luck="" hp="5" mp="" stam=""/>
+        <Rank l="C" ap="15" str="" int="" dex="" will="" luck="" hp="5" mp="" stam=""/>
+        <Rank l="B" ap="15" str="" int="" dex="" will="" luck="" hp="5" mp="" stam=""/>
+        <Rank l="A" ap="15" str="" int="" dex="" will="" luck="" hp="5" mp="" stam=""/>
+        <Rank l="9" ap="15" str="" int="" dex="" will="" luck="" hp="5" mp="" stam=""/>
+        <Rank l="8" ap="15" str="" int="" dex="" will="" luck="" hp="5" mp="" stam=""/>
+        <Rank l="7" ap="15" str="" int="" dex="" will="" luck="" hp="5" mp="" stam=""/>
+        <Rank l="6" ap="15" str="" int="" dex="" will="" luck="" hp="" mp="" stam="" disabled="true"/>
+        <Rank l="5" ap="15" str="" int="" dex="" will="" luck="" hp="" mp="" stam="" disabled="true"/>
+        <Rank l="4" ap="15" str="" int="" dex="" will="" luck="" hp="" mp="" stam="" disabled="true"/>
+        <Rank l="3" ap="17" str="" int="" dex="" will="" luck="" hp="" mp="" stam="" disabled="true"/>
+        <Rank l="2" ap="17" str="" int="" dex="" will="" luck="" hp="" mp="" stam="" disabled="true"/>
+        <Rank l="1" ap="20" str="" int="" dex="" will="" luck="" hp="" mp="" stam="" disabled="true"/>
+      </Skill>
+      <Skill name="Sheep Shearing">
+        <Rank l="F" ap="1"/>
+        <Rank l="E" ap="1"/>
+        <Rank l="D" ap="1"/>
+        <Rank l="C" ap="2" dex="1"/>
+        <Rank l="B" ap="2" dex="1"/>
+        <Rank l="A" ap="2" dex="1"/>
+        <Rank l="9" ap="3" dex="2"/>
+        <Rank l="8" ap="3" dex="1"/>
+        <Rank l="7" ap="5" dex="1"/>
+        <Rank l="6" ap="5" dex="1"/>
+        <Rank l="5" ap="5" dex="3"/>
+        <Rank l="4" ap="6" dex="2"/>
+        <Rank l="3" ap="7" dex="2"/>
+        <Rank l="2" ap="8" dex="2"/>
+        <Rank l="1" ap="12" dex="5"/>
+      </Skill>
+      <Skill name="Shyllien Ecology">
+        <Rank l="F" ap="2" mp="1"/>
+        <Rank l="E" ap="2" mp="1"/>
+        <Rank l="D" ap="3" mp="1"/>
+        <Rank l="C" ap="3" mp="1"/>
+        <Rank l="B" ap="3" mp="1"/>
+        <Rank l="A" ap="3" mp="1"/>
+        <Rank l="9" ap="4" int="1" mp="1"/>
+        <Rank l="8" ap="4" int="1" mp="1"/>
+        <Rank l="7" ap="5" int="1" mp="1"/>
+        <Rank l="6" ap="7" int="1" mp="1"/>
+        <Rank l="5" ap="8" int="1" mp="2"/>
+        <Rank l="4" ap="9" int="1" mp="2"/>
+        <Rank l="3" ap="10" int="1" mp="3"/>
+        <Rank l="2" ap="11" int="2" mp="3"/>
+        <Rank l="1" ap="14" int="3" mp="5"/>
+      </Skill>
+      <Skill name="Tailoring">
+        <Rank l="F" ap="3" dex="1"/>
+        <Rank l="E" ap="3" dex="1"/>
+        <Rank l="D" ap="3" dex="1"/>
+        <Rank l="C" ap="3" dex="1"/>
+        <Rank l="B" ap="3" dex="1"/>
+        <Rank l="A" ap="3" dex="1"/>
+        <Rank l="9" ap="5" dex="1"/>
+        <Rank l="8" ap="5" dex="1"/>
+        <Rank l="7" ap="5" dex="1"/>
+        <Rank l="6" ap="3" dex="1"/>
+        <Rank l="5" ap="7" dex="1"/>
+        <Rank l="4" ap="7" dex="1"/>
+        <Rank l="3" ap="7" dex="1"/>
+        <Rank l="2" ap="7" dex="1"/>
+        <Rank l="1" ap="10" dex="10"/>
+      </Skill>
+      <Skill name="Taming Wild Animals">
+        <Rank l="F" ap="1"/>
+        <Rank l="E" ap="1"/>
+        <Rank l="D" ap="1"/>
+        <Rank l="C" ap="2"/>
+        <Rank l="B" ap="2"/>
+        <Rank l="A" ap="3"/>
+        <Rank l="9" ap="5"/>
+        <Rank l="8" ap="4"/>
+        <Rank l="7" ap="4"/>
+        <Rank l="6" ap="5"/>
+        <Rank l="5" ap="6"/>
+        <Rank l="4" ap="7"/>
+        <Rank l="3" ap="8"/>
+        <Rank l="2" ap="9"/>
+        <Rank l="1" ap="10"/>
+      </Skill>
+      <Skill name="Tasting">
+        <Rank l="F" int="1"/>
+        <Rank l="E" ap="1" int="1"/>
+        <Rank l="D" ap="2" dex="1"/>
+        <Rank l="C" ap="3" dex="1"/>
+        <Rank l="B" ap="4" int="1" dex="1"/>
+        <Rank l="A" ap="5" dex="1"/>
+        <Rank l="9" ap="8" int="1" dex="1"/>
+        <Rank l="8" ap="10" int="1" dex="1"/>
+        <Rank l="7" ap="11" int="1" dex="1"/>
+        <Rank l="6" ap="12" int="2" dex="2"/>
+        <Rank l="5" ap="15" int="2" dex="2"/>
+        <Rank l="4" ap="17" int="2" dex="2"/>
+        <Rank l="3" ap="19" int="2" dex="3"/>
+        <Rank l="2" ap="20" int="2" dex="3"/>
+        <Rank l="1" ap="30" int="3" dex="5"/>
+      </Skill>
+      <Skill name="Transformation Mastery">
+        <Rank l="F" ap="2" str="1" hp="3" stam="3"/>
+        <Rank l="E" ap="5" str="1" hp="3" stam="3"/>
+        <Rank l="D" ap="9" str="1" hp="3" stam="3"/>
+        <Rank l="C" ap="11" str="1" hp="3" stam="3"/>
+        <Rank l="B" ap="14" str="1" hp="3" stam="3"/>
+        <Rank l="A" ap="17" str="1" hp="3" stam="3"/>
+        <Rank l="9" ap="20" str="2" hp="4" stam="4"/>
+        <Rank l="8" ap="24" str="2" hp="4" stam="4"/>
+        <Rank l="7" ap="28" str="2" hp="4" stam="4"/>
+        <Rank l="6" ap="32" str="2" hp="4" stam="4"/>
+        <Rank l="5" ap="36" str="2" hp="4" stam="4"/>
+        <Rank l="4" ap="40" str="2" hp="4" stam="4"/>
+        <Rank l="3" ap="44" str="2" hp="5" stam="5"/>
+        <Rank l="2" ap="48" str="2" hp="5" stam="5"/>
+        <Rank l="1" ap="55" str="2" hp="5" stam="5"/>
+      </Skill>
+      <Skill name="Weaving">
+        <Rank l="F" ap="1" dex="2"/>
+        <Rank l="E" ap="1" dex="2"/>
+        <Rank l="D" ap="1" dex="2"/>
+        <Rank l="C" ap="1" dex="2"/>
+        <Rank l="B" ap="1" dex="2"/>
+        <Rank l="A" ap="1" dex="2"/>
+        <Rank l="9" ap="5" dex="3"/>
+        <Rank l="8" ap="2" dex="3"/>
+        <Rank l="7" ap="2" dex="3"/>
+        <Rank l="6" ap="2" dex="3"/>
+        <Rank l="5" ap="5" dex="3"/>
+        <Rank l="4" ap="3" dex="4"/>
+        <Rank l="3" ap="3" dex="4"/>
+        <Rank l="2" ap="3" dex="4"/>
+        <Rank l="1" ap="10" dex="4"/>
+      </Skill>
+      <Skill name="Wine Making">
+        <Rank l="N" int="1"/>
+        <Rank l="F" ap="1" stam="1"/>
+        <Rank l="E" ap="1" int="1"/>
+        <Rank l="D" ap="1" stam="1"/>
+        <Rank l="C" ap="1" int="1"/>
+        <Rank l="B" ap="1" stam="1"/>
+        <Rank l="A" ap="1" int="1"/>
+        <Rank l="9" ap="2" will="1"/>
+        <Rank l="8" ap="2" int="1"/>
+        <Rank l="7" ap="2" will="1"/>
+        <Rank l="6" ap="3" int="1"/>
+        <Rank l="5" ap="3" will="1"/>
+        <Rank l="4" ap="3" int="1"/>
+        <Rank l="3" ap="4" will="1"/>
+        <Rank l="2" ap="5" int="1"/>
+        <Rank l="1" ap="7" int="1" will="1"/>
       </Skill>
     </Category>
   </Categories>
