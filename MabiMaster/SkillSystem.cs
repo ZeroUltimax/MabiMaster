@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Xml.Serialization;
-namespace MabiMaster
+
+namespace MabiMaster.Skill
 {
 
 	[XmlRoot]

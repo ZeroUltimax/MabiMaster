@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MabiMaster.Char;
+using MabiMaster.Skill;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -10,19 +12,58 @@ namespace MabiMaster
 {
 	public class SkillSummaryViewModel
 	{
-		public SkillSystem SkillSystem { get; set; }
+		private static SkillSystem SkillSystem = LoadSkillSystem();
 
-		public SkillSummaryViewModel() {
+		public IEnumerable<RaceEnum> Races
+		{
+			get
+			{
+				return Enum.GetValues(typeof(RaceEnum)).Cast<RaceEnum>();
+			}
+		}
 
+		public RaceEnum CharacterRace { get; set; }
+
+		private Character character;
+
+		public string CharName
+		{
+			get
+			{
+				return character.Name;
+			}
+			set
+			{
+				character.Name = value;
+			}
+		}
+		public RaceEnum CharRace
+		{
+			get
+			{
+				return character.Race;
+			}
+			set
+			{
+				character.Race = value;
+			}
+		}
+
+		public SkillSummaryViewModel()
+		{
+			character = new Character();
+		}
+
+		private static SkillSystem LoadSkillSystem()
+		{
 			const string DataPath = @"C:\Users\robertsona\Documents\Visual Studio 2013\Projects\MabiMaster\MabiMaster\SkillSystem.xml";
-			
-			XmlSerializer serializer = new XmlSerializer(typeof(SkillSystem));
 
-			FileStream fs = new FileStream(DataPath, FileMode.Open);
-
-			SkillSystem = (SkillSystem)serializer.Deserialize(fs);
-
-			fs.Close();
+			using (FileStream fs = new FileStream(DataPath, FileMode.Open))
+			{
+				XmlSerializer serializer = new XmlSerializer(typeof(SkillSystem));
+				SkillSystem SkillSystem = (SkillSystem)serializer.Deserialize(fs);
+				return SkillSystem;
+			}
 		}
 	}
 }

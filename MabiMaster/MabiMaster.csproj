@@ -54,7 +54,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="SkillSystemMine.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="SkillSystem.cs" />
     <Compile Include="SkillSummaryViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
